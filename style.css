@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+:root{
+    --font-family: 'Kanit', sans-serif;
+    --bg-color: #54B435;
+    --primary-color: #E3F6FF;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1{
+    font-size: 3.6em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 1.7em;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar{
+    margin-top: 40px;
+    font-family: var(--font-family);
+    border-radius: 12px;
+    border-color: #E3F6FF;
+    padding: 13px;
+    color: var(--primary-color);
+    background-color: #4E9F3D;
+    font-weight: bold;
+}
+
+.btn-jogar:hover{
+    cursor: pointer;
+    background-color: #1E5128;
+}
